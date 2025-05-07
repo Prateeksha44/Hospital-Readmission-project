@@ -1,0 +1,12 @@
+Column Name,Data Challenges Introduced,% of Affected Rows,Notes
+n_lab_procedures,Inserted blanks,3.8% of total rows,Incomplete or missing records
+n_medications,Inserted blanks,6.1% of total rows,Incomplete or missing records
+time_in_hospital,Inserted blanks,2.5% of total rows,Incomplete or missing records
+diag_1,'Digestive' ? 'DIGESTIVE',3.1% of ‘Digestive’ entries,Case inconsistency
+diag_2,'Circulatory' ? 'circulatory',2.6% of ‘Circulatory’ entries,Case inconsistency
+diag_3,'Respiratory' ? ' Respiratory',1.4% of ‘Respiratory’ entries,Leading space
+medical_specialty,'Cardiology' ? 'Cardilogy',2.1% of ‘Cardiology’ entries,Spelling error
+medical_specialty,'Family/GeneralPractice' ? ‘Famly/GeneralPractice’,1.5% of ‘Family/GeneralPractice’ entries,Spelling error
+diag_1,Replaced with 'Unknown',0.8% of total rows,Ambiguous data
+diag_2,Replaced with 'Unknown',1.2% of total rows,Ambiguous data
+diag_3,Replaced with 'Unknown',0.6% of total rows,Ambiguous data
