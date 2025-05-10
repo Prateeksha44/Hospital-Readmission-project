@@ -11,10 +11,14 @@ The following datasets are organized under the `data/` directory of this reposit
 
 ### 2. `data/data_challenges_introduced/`
 - `hospital_readmissions_data_challenges.csv`: A version of the dataset with data quality issues intentionally introduced.
-- `synthetic_data_quality_challenges.csv`: A list of synthetic data challenges that were introduced into the raw dataset to simulate realistic data issues and inconsistencies.
+- `synthetic_data_quality_challenges.csv`: A list of synthetic data challenges that were introduced into the raw dataset to simulate realistic data issues and inconsistencies (.
 
-### 3. `data/cleaned/excel/`
-- `hospital_readmissions_cleaned.csv`: Dataset cleaned using Excel.
+### 3. `data/cleaned/`
+- `hospital_readmissions_cleaned.csv`: Dataset cleaned using Excel (fixing inconsistent casing, leading spaces, spelling errors and exploring missing data patterns).
+- `hospital_readmissions_cleaned_sql.csv`: Dataset exported after performing further cleaning using SQL in PostgreSQL (standardizing missing values and imputing missing values).
+  
+### 5. `sql_queries/`
+- `data_cleaning_queries.sql`: A list of SQL queries used to clean the dataset in PostgreSQL, including comments describing each step.
 
 ---
 
