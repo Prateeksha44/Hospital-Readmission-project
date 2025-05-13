@@ -18,7 +18,8 @@ The following datasets are organized under the `data/` directory of this reposit
 - `hospital_readmissions_cleaned_sql.csv`: Dataset exported after performing further cleaning using SQL in PostgreSQL (standardizing missing values and imputing missing values).
   
 ### 5. `sql_queries/`
-- `data_cleaning_queries.sql`: A list of SQL queries used to clean the dataset in PostgreSQL, including comments describing each step.
+- `sql_data_cleaning_queries.sql`: A list of SQL queries used to clean the dataset in PostgreSQL, including comments describing each step.
+- `eda_sql_queries.sql`:  SQL queries used for descriptive statistics, frequency distributions and analyzing readmission patterns. 
 
 ---
 
@@ -36,4 +37,4 @@ The original raw dataset used in this project can be found on Kaggle:
 
 📥 [Hospital Readmissions Dataset on Kaggle](https://www.kaggle.com/datasets/dubradave/hospital-readmissions)
 
-*Note: This repository contains a modified version of the dataset, including synthetic challenges introduced for educational and analysis purposes.*
+*Note: This repository contains a modified version of the dataset, including synthetic challenges introduced for analysis purposes.*
