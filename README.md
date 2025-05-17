@@ -19,7 +19,11 @@ The following datasets are organized under the `data/` directory of this reposit
   
 ### 5. `sql_queries/`
 - `sql_data_cleaning_queries.sql`: A list of SQL queries used to clean the dataset in PostgreSQL, including comments describing each step.
-- `eda_sql_queries.sql`:  SQL queries used for descriptive statistics, frequency distributions and analyzing readmission patterns. 
+- `eda_sql_queries.sql`:  SQL queries used for descriptive statistics, frequency distributions and analyzing readmission patterns.
+
+### 5. `Hospital_readmissions_dashboard/`
+- **Hospital_Readmissions_Report.pbix**: Final Power BI dashboard file used to visualize key patterns, trends, and insights.
+
 
 ---
 
