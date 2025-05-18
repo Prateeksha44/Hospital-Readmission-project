@@ -1,4 +1,4 @@
-# 🏥 Reducing Hospital Readmission Risks Using Data - Driven Insights
+# 🏥 Hospital Readmission Risk: A Data-Driven Analysis
 
 This repository contains datasets for a hospital readmission analysis project. The project involves initial data cleaning using Excel, followed by advanced cleaning and analysis in PostgreSQL, and concludes with visualization of insights using Power BI. Some synthetic data quality challenges were added to the initial raw dataset to mimic real-world data issues commonly found in messy healthcare records.
 
