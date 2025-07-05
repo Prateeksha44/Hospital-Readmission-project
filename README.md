@@ -11,7 +11,7 @@ The following datasets are organized under the `data/` directory of this reposit
 
 ### 2. `data/data_challenges_introduced/`
 - `hospital_readmissions_data_challenges.csv`: A version of the dataset with data quality issues intentionally introduced.
-- `synthetic_data_quality_challenges.csv`: A list of synthetic data challenges that were introduced into the raw dataset to simulate realistic data issues and inconsistencies (.
+- `synthetic_data_quality_challenges.csv`: A list of synthetic data challenges that were introduced into the raw dataset to simulate realistic data issues and inconsistencies.
 
 ### 3. `data/cleaned/`
 - `hospital_readmissions_cleaned.csv`: Dataset cleaned using Excel (fixing inconsistent casing, leading spaces, spelling errors and exploring missing data patterns).
