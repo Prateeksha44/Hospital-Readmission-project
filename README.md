@@ -22,7 +22,7 @@ The following datasets are organized under the `data/` directory of this reposit
 - `eda_sql_queries.sql`:  SQL queries used for descriptive statistics, frequency distributions and analyzing readmission patterns.
 
 ### 5. `Hospital_readmissions_dashboard/`
-- **Hospital_Readmissions_Report.pbix**: Final Power BI dashboard file used to visualize key patterns, trends, and insights.
+- `Hospital_Readmissions_Report.pbix`: Final Power BI dashboard file used to visualize key patterns, trends, and insights.
 
 
 ---
